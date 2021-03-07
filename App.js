@@ -4,6 +4,7 @@ import { Image,StyleSheet, Text, View,TouchableOpacity } from 'react-native';
 import logo from './assets/image.jpg'
 import * as Sharing from 'expo-sharing'
 import * as ImagePicker from 'expo-image-picker'
+import uploadToAnonymousFileAsync from 'anonymous-files'; 
 
 export default function App() {
  const [selectedImage, setSelectedImage] = React.useState(null); 
