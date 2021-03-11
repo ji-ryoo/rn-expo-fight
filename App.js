@@ -31,7 +31,6 @@ export default function App() {
     }
   };
 
-  console.log(selectedImage.localUri);
 
   let openSharingDialogAsync = async() => {
     if(!(await Sharing.isAvailableAsync())){
